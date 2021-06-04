@@ -1,0 +1,122 @@
+
+body {
+	background: #F0F5F5;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	/* fallback for old browsers */
+	/*background: -webkit-linear-gradient(to left, #ef32d9, #89fffd);*/
+	/* Chrome 10-25, Safari 5.1-6 */
+	/*background: linear-gradient(to left, #ef32d9, #89fffd);*/
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;*/
+	margin-top:100px;
+}
+
+h3, h5 {
+	color:#0153D6 !important;
+	font-weight: 300;
+	
+}
+
+p {
+	font-weight: 300;
+	
+}
+
+.profile-pic {
+	box-shadow: 0px 4px 6px 2px lightgrey;
+  border-radius: 50%
+}
+
+.m-t-1 {
+	margin-top:1em;
+}
+
+.p-t-1 {
+	padding-top:1em;
+}
+
+.header-font{
+	
+	color: #0153D6;
+	
+}
+
+.about-me {
+	margin-top:25px;
+}
+
+nav {
+	display: flex;
+}
+
+.navbar-default {
+	background-color:#0153D6;
+	border: none;
+	border-radius:0;
+}
+
+.navbar-text a.navbar-link {
+	color:#FFFFFF;
+	font-size: 1.3em;
+	font-weight: bolder;
+}
+
+.row-grey {
+	background-color: #8AAAE5;
+	-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+	clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+	padding: 65px 10px;
+	color: ivory;
+
+}
+
+.grey-h2{
+	color: white;
+}
+
+.row-white {
+	background-color: #F0F5F5;
+	/*-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);*/
+	/*clip-path: polygon(0 8%, 100% 4%, 100% 96%, 0% 100%);*/
+	padding: 65px 10px;
+	color: #0153D6;
+}
+
+
+.row-footer {
+/*	background-color: lightgrey;
+	-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
+	clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);*/
+	padding: 65px 10px;
+}
+
+.work-item-row {
+	/*padding: 10% 0;*/
+}
+
+.row-tools {
+  padding: 50px 0;
+}
+
+.linkedin-btn {
+	box-shadow: 0px 2px 5px 1px red;
+	padding: 12px;
+	border-radius: 5px;
+}
+
+.btn-launch {
+	width:100%;
+	max-width:200px;
+	background-color: #FFDB14;
+	color:#145FC7;
+	box-shadow: 0px 2px 5px 1px darkgrey;
+}
+
+.btn-launch:hover,
+.btn-launch:focus {
+	color: white;
+	background: #3d7140;
+}
